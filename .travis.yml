@@ -1,0 +1,13 @@
+sudo: false
+language: node_js
+services: mongodb
+node_js:
+  - 6
+notifications:
+  email: false
+addons:
+  code_climate:
+    repo_token:
+script: npm run coverage
+after_script:
+  - codeclimate-test-reporter < coverage/lcov.info

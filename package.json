@@ -1,27 +1,13 @@
 {
-  "name": "package",
-  "version": "0.0.0",
+  "name": "kue-ui-express",
+  "version": "1.0.0",
   "scripts": {
-    "deploy-production": "pm2 deploy ecosystem.json5 production update",
-    "start": "NODE_ENV=development pm2 start app.js --name app-name --watch",
     "test": "NODE_ENV=test mocha --recursive --reporter spec",
     "test-watch": "npm run test -- -w --reporter min"
   },
   "dependencies": {
-    "authmaker-verify-express": "^2.2.0",
-    "body-parser": "^1.14.1",
-    "cors": "^2.5.3",
-    "express-autoroute-json": "^3.0.0",
-    "express-autoroute": "^1.2.1",
-    "express-session": "^1.10.4",
-    "express": "^4.12.3",
-    "lodash": "^4.13.1",
-    "mongoose-nconf-connect": "^1.0.1",
-    "mongoose": "^4.0.4",
-    "morgan": "^1.5.2",
-    "nconf": "^0.8.2",
-    "q": "^1.2.0",
-    "winston": "^2.0.0"
+    "jsdom": "^9.11.0",
+    "serve-static": "^1.11.2"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^10.0.1",

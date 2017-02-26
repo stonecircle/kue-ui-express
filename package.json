@@ -1,6 +1,6 @@
 {
   "name": "kue-ui-express",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Chris Manson <chris@stonecircle.io",
   "repository": "https://github.com/stonecircle/kue-ui-express",
   "licence": "MIT",

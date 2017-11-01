@@ -28,7 +28,7 @@ app.use('/api', kue.app);
 app.listen(3000);
 ```
 
-### Confiugration
+### Configuration
 
 The example above mounts the Kue-Ui Ember appilcation on the express app at the locatio `/kue` and tells the application to point at `/api` to access the Kue JSON api.
 

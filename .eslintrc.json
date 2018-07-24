@@ -2,7 +2,7 @@
     "env": {
       "node": true
     },
-    "extends": "airbnb",
+    "extends": "airbnb-base",
     "rules" : {
       "new-cap": [2 , { "capIsNewExceptions": ["Q", "ObjectId"] }],
       "no-underscore-dangle": [2, { "allow": ["_id"] }]

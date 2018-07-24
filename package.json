@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "jsdom": "^11.11.0",
-    "kue-ui-client": "^1.2.0",
+    "kue-ui-client": "^1.2.1",
     "serve-static": "^1.13.2"
   },
   "devDependencies": {

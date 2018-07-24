@@ -20,7 +20,7 @@ var app = express();
 
 kue.createQueue();
 
-kueUiExpress(app, '/kue/', '/kue-api/');
+kueUiExpress(app, '/kue/', '/kue-api');
 
 // Mount kue JSON api
 app.use('/kue-api/', kue.app);

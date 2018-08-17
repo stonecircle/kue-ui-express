@@ -49,3 +49,6 @@ This repo is just a wrapper for wrapping [Kue-Ui](https://github.com/stonecircle
 
 ### License
 `kue-ui-express` is released under the MIT license. See LICENSE.txt for the complete text.
+
+## Demo
+Running example of the UI with `basic-auth`: [DEMO](https://github.com/zauberware/node-kue-express-ui-heroku-example)
